@@ -1,0 +1,18 @@
+import time
+for i in range(1):
+  print("...")
+  time.sleep(2)
+  print("where am I?")
+  time.sleep(2)
+  answer = input("get up? 1, keep down, 2")
+  time.sleep(2)
+  if answer == "2":
+    print("probably best to keep down, I need my stamina...")
+    print("2 hours later...")
+    time.sleep(2)
+    print("I seem to be in the middle of a battlefield...")
+    time.sleep
+  if answer == "1":
+    print("I seem to be in the middle of a battlefield...")
+  answer2 = input()
+  
