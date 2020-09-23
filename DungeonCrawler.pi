@@ -15,4 +15,24 @@ for i in range(1):
   if answer == "1":
     print("I seem to be in the middle of a battlefield...")
   answer2 = input()
-  
+  answer2 = input("look for weapon, 1, get out of there, 2,")
+  if answer2 == "1":
+    print("I can't seem to find one!")
+    alternateanswer = input("Keep looking, 1, Get out of there, 2, ")
+    if alternateanswer == "1":
+      print("You found a katana...")
+      time.sleep(2)
+      print("inscribed into it reads 光, Light ")
+      time.sleep(2)
+      print("You run into a mongolian, He wields a spear")
+      time.sleep(2)
+      alternateanswer2 = input("negotiate, 1, fight with katana, 2, try to run, 3, insult him, 4, ")
+      if alternateanswer2 == "1":
+        print("you tell him that you have a proposition...")
+        time.sleep(2)
+        print("the mongolian decides to listen")
+        time.sleep(2)
+        print("you tell him you will give him the coins in your pocket if he lets you flee...")
+        time.sleep(2)
+        for i in range(0, 2):
+          n = random.randint(1,2)
