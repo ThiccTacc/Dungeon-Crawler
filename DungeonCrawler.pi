@@ -1,23 +1,27 @@
 import time
+import random
 for i in range(1):
   print("...")
   time.sleep(2)
   print("where am I?")
   time.sleep(2)
-  answer = input("get up? 1, keep down, 2")
+  answer = input("get up? 1, keep down, 2,  ")
   time.sleep(2)
   if answer == "2":
     print("probably best to keep down, I need my stamina...")
+    time.sleep(2)
     print("2 hours later...")
     time.sleep(2)
     print("I seem to be in the middle of a battlefield...")
     time.sleep
   if answer == "1":
     print("I seem to be in the middle of a battlefield...")
-  answer2 = input()
+    time.sleep(2)
   answer2 = input("look for weapon, 1, get out of there, 2,")
   if answer2 == "1":
+    time.sleep(2)
     print("I can't seem to find one!")
+    time.sleep(2)
     alternateanswer = input("Keep looking, 1, Get out of there, 2, ")
     if alternateanswer == "1":
       print("You found a katana...")
@@ -34,5 +38,62 @@ for i in range(1):
         time.sleep(2)
         print("you tell him you will give him the coins in your pocket if he lets you flee...")
         time.sleep(2)
-        for i in range(0, 2):
-          n = random.randint(1,2)
+        alternateanswer3 = input("are you willing to give your coins? yes, 1,or no, 2,  ")
+        time.sleep(2)
+        if alternateanswer3 == "1":
+            chance = (random.randint(1, 100))
+            if chance > 50:
+              print("the mongolion takes the coins and spares you")
+            if chance < 50:
+              print("the mongolian has changed his mind, he is interested in the Hikari katana")
+              time.sleep(2)
+              alternateanswer4 = input("give him the katana? 1, or choose to fight him, 2, ")
+              time.sleep(2)
+              if alternateanswer4 == "1":
+                print("The Mongolian slaughtered you where you begged...")
+                time.sleep(2)
+                print("you fool you should be more careful")
+              if alternateanswer4 == "2":
+                print("The mongolian is furious, he attacks you")
+        if alternateanswer3 == "2":
+          print("The mongolian has had enough of your impudence...")
+          time.sleep(2)
+          print("He attacks you")
+      if alternateanswer2 == "2":
+        print("The mongolian laughs...")
+        time.sleep(2)
+        print("But little does he know, you've slaughtered hundreds of his kind...")
+        time.sleep(2)
+        print("you swing at him with the Katana of Hikari")
+        chance2 = (random.randint(1, 10))
+        if chance2 < 4:
+          print("The mongolion, wounded, stumbles to get away...")
+          time.sleep(2)
+          specialchoice = input("put him out of his misery, 1, or leave him to die, 2, ")
+          if specialchoice == "1":
+            print("you vaporize him with the finishing blow of the Hikari")
+          if specialchoice == "2":
+            print("You are cruel...")
+            time.sleep(2)
+            print("Truely a force to be reckoned with...")
+        if chance2 > 5:
+          print("you still got it, you vaporized him instantly")
+      if alternateanswer2 == "3":
+        chance3 = (random.randint(1,100))
+        if chance3 < 50:
+          print("you were slaughtered before you could get away")
+        if chance3 > 50:
+          print("you got away, you really are lucky...")
+      if alternateanswer2 == "4":
+        print("you call his mother a fat cow...")
+        time.sleep(2)
+        print("the mongolian gets ready to stab you...")
+        time.sleep(2)
+        print("you slice his rib with the katana and say...")
+        time.sleep(2)
+        print("you're weak, like your mother...")
+        time.sleep(2)
+        print("the mongolian falls to the ground...")
+        time.sleep(2)
+        print("but the war isn't over you need to get out of there")
+          
