@@ -1,46 +1,74 @@
 import time
 import random
+import replit
 coins = float(50)
 print("...")
 time.sleep(2)
+replit.clear()
 print("where am I?")
 time.sleep(2)
+replit.clear()
 answer = input("get up? 1, keep down, 2,  ")
 time.sleep(2)
+replit.clear()
 if answer == "2":
   print("probably best to keep down, I need my stamina...")
   time.sleep(2)
+  replit.clear()
   print("2 hours later...")
   stamina = float(1)
   time.sleep(2)
+  replit.clear()
   print("I seem to be in the middle of a battlefield...")
-  time.sleep
+  time.sleep(2)
+  replit.clear()
 if answer == "1":
   stamina = float(2)
   print("I seem to be in the middle of a battlefield...")
   time.sleep(2)
+  replit.clear()
 answer2 = input("look for weapon, 1, get out of there, 2,")
 if answer2 == "1":
   print("I can't seem to find one!")
   time.sleep(2)
+  replit.clear()
   alternateanswer = input("Keep looking, 1, Get out of there, 2, ")
+  if alternateanswer == "2":
+   print("best to get out of here...")
+  time.sleep(2)
+  replit.clear()
+  print("on your way out you come across a Katana which inscribed onto it reads 光 light...")
+  inventoryanswer = input("do you wish to keep the Hikari Katana? 1:Yes, 2:no ")
+  time.sleep(2)
+  replit.clear()
+  if inventoryanswer == "1":
+    katana = float(1)
+  if inventoryanswer == "2":
+    katana = float(2)
   if alternateanswer == "1":
     print("You found a katana...")
     time.sleep(2)
+    replit.clear()
     print("inscribed into it reads 光, Light ")
     time.sleep(2)
+    replit.clear()
     print("You run into a mongolian, He wields a spear")
     time.sleep(2)
+    replit.clear()
     alternateanswer2 = input("1:Negotiate, 2:fight with katana, 3:try to run, 4:insult him, ")
     if alternateanswer2 == "1":
       print("you tell him that you have a proposition...")
       time.sleep(2)
+      replit.clear()
       print("the mongolian decides to listen")
       time.sleep(2)
+      replit.clear()
       print("you tell him you will give him the coins in your pocket if he lets you flee...")
       time.sleep(2)
+      replit.clear()
       alternateanswer3 = input("are you willing to give your coins? yes, 1,or no, 2,  ")
       time.sleep(2)
+      replit.clear()
       if alternateanswer3 == "1":
           chance = (random.randint(1, 100))
           if chance > 50:
@@ -48,34 +76,42 @@ if answer2 == "1":
           if chance < 50:
             print("the mongolian has changed his mind, he is interested in the Hikari katana")
             time.sleep(2)
+            replit.clear()
             alternateanswer4 = input("give him the katana? 1, or choose to fight him, 2, ")
             time.sleep(2)
+            replit.clear()
             if alternateanswer4 == "1":
              print("The Mongolian slaughtered you where you begged...")
             time.sleep(2)
+            replit.clear()
             print("you fool you should be more careful")
             if alternateanswer4 == "2":
               print("The mongolian is furious, he attacks you")
       if alternateanswer3 == "2":
         print("The mongolian has had enough of your impudence...")
         time.sleep(2)
+        replit.clear()
         print("He attacks you")
     if alternateanswer2 == "2":
       print("The mongolian laughs...")
       time.sleep(2)
+      replit.clear()
       print("But little does he know, you've slaughtered hundreds of his kind...")
       time.sleep(2)
+      replit.clear()
       print("you swing at him with the Katana of Hikari")
       chance2 = (random.randint(1, 100))
       if chance2 < 50:
         print("The mongolion, wounded, stumbles to get away...")
         time.sleep(2)
+        replit.clear()
         specialchoice = input("put him out of his misery, 1, or leave him to die, 2, ")
         if specialchoice == "1":
           print("you vaporize him with the finishing blow of the Hikari")
         if specialchoice == "2":
           print("You are cruel...")
           time.sleep(2)
+          replit.clear()
           print("Truely a force to be reckoned with...")
       if chance2 > 50:
         print("you still got it, you vaporized him instantly")
@@ -88,49 +124,26 @@ if answer2 == "1":
     if alternateanswer2 == "4":
       print("you call his mother a fat cow...")
       time.sleep(2)
+      replit.clear()
       print("the mongolian gets ready to stab you...")
       time.sleep(2)
-      print("you slice his rib with the katana and say...")
+      replit.clear()
+      print("you slice his rib with the katana...")
       time.sleep(2)
-      print("I think I remember you're father...")
-      time.sleep(2)
+      replit.clear()
       print("the mongolian falls to the ground...")
       time.sleep(2)
+      replit.clear()
 if answer2 == "2":
   print("best to get out of here...")
   time.sleep(2)
+  replit.clear()
   print("on your way out you come across a Katana which inscribed onto it reads 光 light...")
   time.sleep(2)
-  if alternateanswer == "2":
-   print("best to get out of here...")
-  time.sleep(2)
-  print("on your way out you come across a Katana which inscribed onto it reads 光 light...")
-  inventoryanswer = input("do you wish to keep the Hikari Katana? 1:Yes, 2:no ")
-  time.sleep(2)
-  if inventoryanswer == "1":
-    katana = float(1)
-  if inventoryanswer == "2":
-    katana = float(2)
-if stamina == 2:
-  print("im exhuasted... I need to rest...")
-  time.sleep(2)
-  ("8 hours later...")
-  time.sleep(2)
-  coins = float(40)
-  print("I used 10 coins, I only have 40 left...")
-  time.sleep(2)
-  print("In a bloodthirsty rage, you feel like infiltrating a mongolian base? 1:yes, 2:no")
-
-            
-
-  
-
-
-      
-        
-
-
-
+  replit.clear()
+print("Dungeon Crawler")
+time.sleep(4)
+replit.clear()
 
 
 
